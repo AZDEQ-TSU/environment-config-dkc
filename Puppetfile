@@ -7,6 +7,7 @@ mod 'puppetlabs/stdlib'
 mod 'puppetlabs/concat'
 mod 'puppetlabs/tomcat'
 mod 'puppetlabs/apache'
+mod 'puppetlabs/java'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
