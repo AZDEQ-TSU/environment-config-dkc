@@ -21,4 +21,4 @@ mod 'puppetlabs/java'
 #
 #
 mod 'profiledkc',
-  :git     => git@github.com:AZDEQ-TSU/profiledkc.git'
+  :git     => 'git@github.com:AZDEQ-TSU/profiledkc.git'
