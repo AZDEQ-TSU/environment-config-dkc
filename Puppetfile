@@ -6,7 +6,7 @@ mod 'puppetlabs/inifile'
 mod 'puppetlabs/stdlib'
 mod 'puppetlabs/concat'
 mod 'puppetlabs/tomcat'
-mod 'puppetlabs/apache'
+mod 'puppetlabs/apache', :latest
 mod 'puppetlabs/java'
 
 # Modules from Git
