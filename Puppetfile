@@ -20,3 +20,5 @@ mod 'puppetlabs/java'
 #  :branch => 'docs_experiment'
 #
 #
+mod 'profiledkc',
+  :git     => git@github.com:AZDEQ-TSU/profiledkc.git'
