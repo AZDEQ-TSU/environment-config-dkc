@@ -8,7 +8,7 @@ mod 'puppetlabs/concat'
 mod 'puppetlabs/tomcat'
 mod 'puppetlabs/apache', :latest
 mod 'puppetlabs/java'
-mod 'puppetlabs/sudo'
+mod 'saz/sudo'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
