@@ -9,6 +9,7 @@ mod 'puppetlabs/tomcat'
 mod 'puppetlabs/apache', :latest
 mod 'puppetlabs/java'
 mod 'saz/sudo'
+mod 'puppetlabs-sshkeys_core'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
