@@ -10,6 +10,7 @@ mod 'puppetlabs/apache', :latest
 mod 'puppetlabs/java'
 mod 'saz/sudo'
 mod 'puppetlabs-sshkeys_core'
+mod 'puppet-mongodb'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
