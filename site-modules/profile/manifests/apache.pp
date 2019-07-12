@@ -15,4 +15,11 @@ class profile::apache {
   package { 'php':
     ensure => 'present'
   }
+  file { '/var/www/html/phpinfo.php':
+    ensure  => 'present',
+    owner   => 'root',
+    group   => 'root',
+    mode    => '0644',
+    content => "<?php\nphpinfo();\n?>"
+  }
 }
