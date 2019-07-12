@@ -24,10 +24,10 @@ class profile::apache {
     content => "<?php\nphpinfo();\n?>"
   }
   file { '/var/www/html/index.html':
-    ensure => 'present',
-    owner => 'root',
-    group => 'root',
-    mode => '0644',
+    ensure  => 'present',
+    owner   => 'root',
+    group   => 'root',
+    mode    => '0644',
     content => "<html>\n<a href=phpinfo.php>PHP Information</a>\n</html>"
   }
 }
