@@ -16,8 +16,8 @@ class profile::apache {
     ensure => 'present'
   }
   file { '/var/www/html/phpinfo.php':
-    notify  => Service['httpd'],
     ensure  => 'present',
+    notify  => Service['httpd'],
     owner   => 'root',
     group   => 'root',
     mode    => '0644',
