@@ -1,6 +1,8 @@
-class profile::base {
+#
+# base profile includes component modules that will be on all nodes
+#
 
-  #base profile includes component modules that will be on all nodes
+class profile::base {
 
   group { 'dcrowfo':
     gid => 1501,
