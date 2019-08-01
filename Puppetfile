@@ -14,6 +14,7 @@ mod 'puppet-mongodb'
 mod 'puppetlabs-mysql', :latest
 mod 'puppet-php'
 mod 'puppet-nginx'
+mod 'herculesteam-augeasproviders'
 mod 'herculesteam-augeasproviders_core'
 mod 'herculesteam-augeasproviders_sysctl'
 
