@@ -5,9 +5,10 @@
 class profile::base {
 
   sysctl { 'net.ipv4.ip_forward':
-  ensure => present,
-  value  => '0',
-  apply  => true,
+  ensure  => present,
+  value   => '0',
+  apply   => true,
+  persist => true,
 }
   group { 'dcrowfo':
     gid => 1501,
