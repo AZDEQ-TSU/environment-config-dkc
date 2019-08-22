@@ -6,17 +6,17 @@
 #
 class profile::apache {
   package { 'httpd':
-    ensure => 'present',
+    ensure => present,
   }
   service { 'httpd':
-    ensure => 'running',
+    ensure => running,
     enable => true,
   }
   package { 'php':
-    ensure => 'present'
+    ensure => present
   }
   file { '/var/www/html/phpinfo.php':
-    ensure  => 'present',
+    ensure  => present,
     notify  => Service['httpd'],
     owner   => 'root',
     group   => 'root',
@@ -24,10 +24,17 @@ class profile::apache {
     content => "<?php\nphpinfo();\n?>"
   }
   file { '/var/www/html/index.html':
-    ensure  => 'present',
+    ensure  => present,
     owner   => 'root',
     group   => 'root',
     mode    => '0644',
     content => "<html>\n<a href=phpinfo.php>PHP Information</a>\n</html>"
   }
+  file { '/var/www/html/NUTRITON.pdf':
+    ensure => present,
+    owner => 'root',
+    group  => 'root',
+    mode => '0644',
+    source => 'puppet:///modules/profile/NUTRITON.pdf',
+    }
 }
