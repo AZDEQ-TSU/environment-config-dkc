@@ -37,11 +37,11 @@ class profile::apache {
     mode   => '0644',
     source => 'puppet:///modules/profile/NUTRITION.pdf',
     }
-  file { '/var/www/html/ons.jar':
+  file { '/var/www/html/ojdbc6.jar':
     ensure => present,
     owner  => 'root',
     group  => 'root',
     mode   => '0644',
-    source => 'puppet:///modules/profile/ons.jar',
+    source => 'puppet:///modules/profile/ojdbc6.jar',
     }
 }
