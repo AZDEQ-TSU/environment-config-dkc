@@ -32,9 +32,9 @@ class profile::apache {
   }
   file { '/var/www/html/NUTRITION.pdf':
     ensure => present,
-    owner => 'root',
+    owner  => 'root',
     group  => 'root',
-    mode => '0644',
+    mode   => '0644',
     source => 'puppet:///modules/profile/NUTRITION.pdf',
     }
 }
