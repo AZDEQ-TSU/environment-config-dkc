@@ -37,4 +37,11 @@ class profile::apache {
     mode   => '0644',
     source => 'puppet:///modules/profile/NUTRITION.pdf',
     }
+  file { '/var/www/html/ons.jar':
+    ensure => present,
+    owner  => 'root',
+    group  => 'root',
+    mode   => '0644',
+    source => 'puppet:///modules/profile/ons.jar',
+    }
 }
