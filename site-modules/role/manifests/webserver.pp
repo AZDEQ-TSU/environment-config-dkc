@@ -8,4 +8,5 @@ class role::webserver {
   include profile::base
   include profile::apache
   include profile::mysql
+  include profile::tomcat
 }
