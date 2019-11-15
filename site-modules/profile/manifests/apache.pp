@@ -86,3 +86,4 @@ group { 'tomcat':
         dir_list      => ['bin','conf','lib','logs','temp','webapps','work'],
         dir_mode      => '0755',
 }
+}
