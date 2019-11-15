@@ -8,6 +8,8 @@ mod 'puppetlabs/concat'
 mod 'puppetlabs/tomcat', :latest
 mod 'puppetlabs/apache', :latest
 mod 'puppetlabs/java'
+mod 'puppet-archive', :latest
+mod 'puppetlabs-chocolatey', :latest
 mod 'saz/sudo'
 mod 'puppetlabs-sshkeys_core', :latest
 mod 'puppet-mongodb'
