@@ -2,7 +2,7 @@
 # Tomcat
 #
 
-class profile::mydeqtomcat {
+class profile::tomcat {
 
 group { 'tomcat':
   gid => 1008,
