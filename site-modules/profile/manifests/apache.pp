@@ -45,7 +45,7 @@ class profile::apache {
     source => 'puppet:///modules/profile/ojdbc6.jar',
     }
 }
-class profilelinux::mydeqtomcat {
+class profile::mydeqtomcat {
 
 group { 'tomcat':
   gid => 1008,
