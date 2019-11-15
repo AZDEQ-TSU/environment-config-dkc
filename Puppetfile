@@ -5,7 +5,7 @@ forge 'https://forge.puppet.com'
 mod 'puppetlabs/inifile'
 mod 'puppetlabs/stdlib'
 mod 'puppetlabs/concat'
-mod 'puppetlabs/tomcat'
+mod 'puppetlabs/tomcat', :latest
 mod 'puppetlabs/apache', :latest
 mod 'puppetlabs/java'
 mod 'saz/sudo'
