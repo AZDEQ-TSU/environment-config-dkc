@@ -43,4 +43,10 @@ group { 'tomcat':
         dir_list      => ['bin','conf','lib','logs','temp','webapps','work'],
         dir_mode      => '0755',
 }
+tomcat::service { 'tomcat':
+        catalina_home => '/data/tomcat',
+        use_jsvc => false,
+        use_init => false,
+        service_enable => false,
+}        
 }
