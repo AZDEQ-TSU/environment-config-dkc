@@ -32,7 +32,7 @@ group { 'tomcat':
     match   => 'export UMASK.*$',
 }
 -> tomcat::install { '/data/tomcat':
-        source_url    => 'puppet:///modules/profile/apache-tomcat-9.0.34.tar.gz',
+        source_url    => 'puppet:///modules/profile/apache-tomcat-9.0.24.tar.gz',
         catalina_home => '/data/tomcat',
         manage_user   => false,
         manage_group  => false,
